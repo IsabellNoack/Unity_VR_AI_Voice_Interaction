@@ -10,10 +10,10 @@ This project is part of the first semester of my Master's program in Human-Compu
 ## Requirements
 To work with this project, you will need:
 
-- Unity Editor (compatible version for the project).
-- Meta Quest 3 headset.
-- Access to OpenAI API credentials.
-- Meta Voice SDK setup.
+- Unity Editor
+- Meta Quest 3 headset
+- Access to OpenAI API credentials
+- Meta Voice SDK setup
 
 ## Setup Instructions
 1. Clone this repository to your local machine.
