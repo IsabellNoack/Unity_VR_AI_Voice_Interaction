@@ -17,11 +17,7 @@ To work with this project, you will need:
 
 ## Setup Instructions
 1. Clone this repository to your local machine.
-2. Open the project in Unity Editor.
-3. Ensure the required packages are installed via Unity's Package Manager.
-4. Configure the OpenAI API credentials by setting an environment variable for your local user:
-   - On Windows, open the System Properties and navigate to Environment Variables.
-   - Create a new user variable named `OPENAI_API_KEY` and set its value to your API key.
-   - Restart Unity to ensure the environment variable is recognized.
-5. Set up the Meta Voice SDK following the official documentation.
-6. Connect and configure your Meta Quest 3 headset for testing.
+2. Open the project in Unity Editor (version 6000.3.11f1).
+3. Ensure the required packages are installed.
+4. Configure the OpenAI API credentials by setting an environment variable for your local user with variable name `OPENAI_API_KEY` and set its value to your OpenAI API key.
+5. Connect your Meta Quest 3 headset for testing.
