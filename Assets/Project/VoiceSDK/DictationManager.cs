@@ -1,9 +1,11 @@
 using UnityEngine;
 using Oculus.Voice.Dictation;
+using TMPro; // TextMeshPro
 
 public class SmartVoice : MonoBehaviour
 {
     public AppDictationExperience dictation;
+    public TextMeshPro tmp3DText;
 
     private bool isRestarting;
 
@@ -42,7 +44,12 @@ public class SmartVoice : MonoBehaviour
     {
         if (!string.IsNullOrEmpty(text))
         {
-            Debug.Log("VOICE INPUT: " + text);
+            Debug.Log("VOICE: " + text); // Log to console
+
+            if (tmp3DText != null)
+            {
+                tmp3DText.text = text; // Update 3D TextMeshPro Text
+            }
         }
     }
 }
